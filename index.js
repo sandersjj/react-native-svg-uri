@@ -3,23 +3,24 @@ import {View} from 'react-native';
 import PropTypes from 'prop-types'
 import xmldom from 'xmldom';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
+const Svg = require("expo").Svg;
 
-import Svg,{
-    Circle,
-    Ellipse,
-    G ,
-    LinearGradient,
-    RadialGradient,
-    Line,
-    Path,
-    Polygon,
-    Polyline,
-    Rect,
-    Text,
-    TSpan,
-    Defs,
-    Stop
-} from 'react-native-svg';
+const {
+  Circle,
+  Ellipse,
+  G,
+  LinearGradient,
+  RadialGradient,
+  Line,
+  Path,
+  Polygon,
+  Polyline,
+  Rect,
+  Text,
+  TSpan,
+  Defs,
+  Stop
+} = Svg;
 
 import * as utils from './utils';
 
